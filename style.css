@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #d8d8d8;
+}
+
+.navbar{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px 35px 20px 35px;
+    
+}
+
+.Links ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    gap: 35px;
+    
+}
+
+.Links ul li{
+    list-style: none;
+    margin: 0;
+    font-size: 25px ;
+    cursor: pointer;
+
+    &:hover{
+        font-weight: bold;
+        
+    }
+    
+}
+
+.Links ul li button{
+    background-color: #d00000;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #a80202;
+    }
+}
+.logo img{
+    width: 37%;
+}
+
+.textoprincipal{
+    margin-bottom: 150px;
+}
+.textoprincipal h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+.textoprincipal p{
+    color: #585858;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+
+#cardsCarro, #cardMoto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 35px;
+    margin: 0 auto;
+    width: 1800px;
+}
+
+#cardsCarro img, #cardMoto img {
+    border-radius: 15px;
+    height: 270px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Comprar{
+    background-color: #eba52e;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #a80202;
+    }
+}
+
+.title-car{
+    font-size: 35px;
+    color: #585858;
+    font-weight: 350;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.card{
+    flex: 1;
+}
+.card p{
+    font-size: 17px;
+}
+
+.Info-vendedores h3{
+    font-size: 55px;
+    text-align: center;
+    color: #000000;
+    margin-top: 150px;
+    font-weight: 350;
+
+}
+
+
+.Info-vendedores p{
+    text-align: center;
+    color: #585858;
+    font-size: 25px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+#vendedores{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#vendedores img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #a80202;
+}
+
+.cardVendedores h1{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer{
+    background-color: #1b3958;
+    padding: 65px;
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+}
+
+footer div img{
+    width: 255px;
+
+}
+
+footer div h2{
+    font-weight: normal;
+}
